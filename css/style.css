@@ -1,0 +1,63 @@
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+	background-color: rgba(255,255,255,0.5);
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0 0 25px 5px rgba(225, 225, 255, 0.5);
+	border-radius: 20px;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 60px;
+	text-shadow: 20px 5px blue;
+	
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: normal;
+}
+
+h3 {
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+img {
+	width:200px;
+	border-radius: 50% 50% 30% 30%;
+	display: block;
+	margin: 0 auto;
+	border: 10px dotted #bada55;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+
+}
+
+a {
+	color: #660066;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover, {
+	text-decoration: underline;
+	color: white;
+}
